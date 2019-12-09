@@ -32,7 +32,7 @@ endif (WIN32)
 
 option(LEVELDB_BUILD_TESTS "Build LevelDB's unit tests" OFF)
 option(LEVELDB_BUILD_BENCHMARKS "Build LevelDB's benchmarks" OFF)
-option(LEVELDB_INSTALL "Install LevelDB's header and library" ON)
+option(LEVELDB_INSTALL "Install LevelDB's header and library" OFF)
 
 include(TestBigEndian)
 test_big_endian(LEVELDB_IS_BIG_ENDIAN)
